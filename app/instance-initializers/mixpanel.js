@@ -1,4 +1,4 @@
-import MixpanelMixin from '../mixin/tracking_mixin'
+import MixpanelMixin from '../mixins/tracking_mixin'
 
 export function initialize(instance) {
     var router = instance.container.lookup('router:main');

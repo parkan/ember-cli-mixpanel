@@ -1,4 +1,4 @@
-import MixpanelMixin from '../mixin/tracking_mixin'
+import MixpanelMixin from '../mixins/tracking_mixin'
 
 export function initialize(registry, application) {
     application.register("mixinpanel:main", MixpanelMixin);

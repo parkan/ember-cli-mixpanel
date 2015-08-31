@@ -35,7 +35,7 @@ on our controller.
 
 ```javascript
 import Ember from 'ember'
-import TrackingMixin from './mixin/tracking_mixin'
+import TrackingMixin from './mixins/tracking_mixin'
 
 var VideoController = Ember.Controller.extend(
   TrackingMixin, {
